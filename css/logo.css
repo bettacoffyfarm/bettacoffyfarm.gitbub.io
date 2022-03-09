@@ -1,0 +1,16 @@
+#flex_container_logo{
+	display: flex;
+
+	
+}
+#left_side_logo{
+	
+	overflow: hidden;
+	flex: 30%;
+	color: black;
+	text-align: center;
+	padding: 5px 20px;
+}
+#right_side_hinh_trai{
+	flex: 70%;
+	text-align:center;

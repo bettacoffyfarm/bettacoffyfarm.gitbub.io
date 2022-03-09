@@ -1,0 +1,81 @@
+.hotrotructuyen_lienhe{
+
+	
+	background-color: #99ffff;
+	overflow: hidden;
+}
+	.ho_tro_truc_tuyen{
+		color: white;
+		background-color: blue;
+		text-align: center;
+
+	}
+	.hot_line_sdt{
+		padding-top:  5px;
+		color: red;
+		text-align:center;	
+	}
+	.support_online_lienhe{
+		text-align:center;	
+
+	}
+		.support_online{
+			padding: 20px;
+			color: red;
+
+		}
+		.support_tikter a{
+			text-decoration: none;
+
+		}
+		.support_tikter a span{
+			
+		    color: #ad2d23;
+		    font-weight: bold;
+		    font-family: arial;
+		    text-align: center;
+		    width: auto;
+		  
+		}
+		.support_zalo a {
+			
+		    color: #ad2d23;
+		    font-weight: bold;
+		    font-family: arial;
+		    text-align: center;
+		    width: auto;
+		    
+			text-decoration: none;
+		}
+
+		.support_fb a{
+			text-decoration: none;
+			padding-left: 6px;
+		    color: #ad2d23;
+		    font-weight: bold;
+		    font-family: arial;
+		    text-align: center;
+		    width: auto;
+		    padding-top: 23px;
+		}
+body {
+ 
+  /*font-family: cursive;*/
+}
+
+.glow {
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
