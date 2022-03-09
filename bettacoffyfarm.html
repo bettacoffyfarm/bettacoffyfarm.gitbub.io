@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/menchao.css">
+	<link rel="stylesheet" href="css/logo.css">
+	<link rel="stylesheet" href="css/trangchu.css">
+	<link rel="stylesheet" href="css/search.css">
+	<link rel="stylesheet" href="css/lienhe.css">
+	<link rel="stylesheet" href="css/danhmuc.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awe	some/4.7.0/css/font-awesome.min.css">
+	<title>Betta Coffy Farm - Trại cá - Shop Cá Cảnh</title>
+</head>
+<body>
+	<div id="flex_container_memchao">
+		<div id="left_side_menchao">
+		MẾN CHÀO NHỮNG NGƯỜI BẠN HỮU DUYÊN
+		</div>
+		<div id="right_side_shop">
+			<nav>
+				<a href="https://shopee.vn/bettabeco" class="right_side">SHOPEE</a>
+				<a href="https://www.lazada.vn/shop/bettabeco" class="right_side">LAZADA</a>	
+				<a href="https://youtube.com/c/BETTACOFFYFARM" class="right_side">YOUTUBE</a>
+			</nav>
+		</div>
+	</div>
+	<div id="flex_container_logo">
+		<div id="left_side_logo">
+			<img src="assets\avt.png" alt="My photo" width="200" height="160">
+			<h1>BETTA COFFY FARM</h1>
+		</div>
+		<div id="right_side_hinh_trai">
+			<img src="assets\1ok.jpg" alt="My photo" width="800" height="200">
+		</div>
+	</div>
+	<div id="container_trang_chu">
+		<a href="#trang_chu"class="menu_left">TRANG CHỦ</a>
+		<a href="#danh_muc" class="menu_left">DANH MỤC CÁC LOẠI CÁ</a>
+		<a href="#phan_biet" class="menu_left">CÁCH PHÂN BIỆT CÁC LOẠI CÁ BETTA</a>
+		<a href="#chia_se" class="menu_left">CHIA SẺ KINH NGHIỆM NUÔI CÁ</a>
+		<a href="#thao_luan" class="menu_left">THẢO LUẬN</a>
+		<a href="#lien_he" class="menu_right">LIÊN HỆ</a>
+
+	</div>
+		<div class="row">
+		  	<div class="left" style="background-color:#ccffff;">
+		  		<div>
+				    <h4>DANH MỤC CÁC LOẠI CÁ</h4>
+				    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Tìm kiếm..." title="Type in a category">
+				    <ul id="myMenu">
+
+				    <div class="sidenav">
+  						<button class="dropdown-btn"><li><a href="#">BETTA</a></li>
+    						<i class="fa fa-caret-down"></i>
+  						</button>
+  							<div class="dropdown-container">
+    							<a href="#">
+    								<li><a href="#">Plakat</a></li>	
+    							</a>
+    									<li><a href="#">Crowntail</a></li>
+									    <li><a href="#">DoubleTail</a></li>
+									    <li><a href="#">Dragon</a></li>
+									    <li><a href="#">Dumbo</a></li>
+									    <li><a href="#">Fancy</a></li>
+									    <li><a href="#">Giant</a></li>
+									    <li><a href="#">Koi</a></li>
+									    <li><a href="#">Solid</a></li>
+									    <li><a href="#">VIP Plakat</a></li>
+    							<a href="#">
+    								<li><a href="#">Halfmoon</a></li> 
+    							</a>
+    									<li><a href="#">Crowntail</a></li>
+								      	<li><a href="#">DoubleTail</a></li>
+								     	<li><a href="#">Dragon</a></li>
+									    <li><a href="#">Dumbo</a></li>
+									    <li><a href="#">Fancy</a></li>
+									    <li><a href="#">Giant</a></li>
+									    <li><a href="#">Koi</a></li>
+									    <li><a href="#">Solid</a></li>
+									    <li><a href="#">VIP Halfmoon</a></li> 
+  							</div>
+					</div>
+					<script>
+						/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+						var dropdown = document.getElementsByClassName("dropdown-btn");
+						var i;
+
+						for (i = 0; i < dropdown.length; i++) {
+						  dropdown[i].addEventListener("click", function() {
+						  this.classList.toggle("active");
+						  var dropdownContent = this.nextElementSibling;
+						  if (dropdownContent.style.display === "block") {
+						  dropdownContent.style.display = "none";
+						  } else {
+						  dropdownContent.style.display = "block";
+						  }
+						  });
+						}
+					</script>
+
+				    </ul>
+				</div>
+		    	<div class="hotrotructuyen_lienhe">
+			    	<h2 class="ho_tro_truc_tuyen">Hỗ trợ trực tuyến</h2>
+    				<div class="hot_line_sdt">
+    					<h3>HOT LINE</h3>
+	    				<h1 class="glow">0907184638</h1>
+	    			</div>
+	    			<div class="support_online_lienhe">
+	    				<div class="support_online">
+		    				<h3>Support online:
+		    				</h3>
+		    			</div>
+		            	<div class="support_tikter">
+							<a href="#"><img src="assets\lienhe\tikter.jpg" width="28" height="28" alt="skype">	
+							<span class="duong">
+							0907184638	
+							</span>
+							</a>
+						</div >
+						<div class="support_zalo">
+					  		<a href="#"><img src="assets\lienhe\zalo.jpg" width="26" height="26" alt="yahoo">		
+					  		<span>0907184638
+					  		</span>
+					  		</a>
+						</div >
+						<div class="support_fb">
+							<a href="#"><img src="assets\lienhe\fb.jpg" width="26" height="26" alt="FaceBook">
+							<span>BETTACOFFYFARM
+							</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+	  
+	  		<div class="right" style="background-color:#ffffff;">
+	      
+
+
+	  		</div>
+	  	</div>
+	</div>
+
+	<script>
+	function myFunction() {
+	  var input, filter, ul, li, a, i;
+	  input = document.getElementById("mySearch");
+	  filter = input.value.toUpperCase();
+	  ul = document.getElementById("myMenu");
+	  li = ul.getElementsByTagName("li");
+	  for (i = 0; i < li.length; i++) {
+	    a = li[i].getElementsByTagName("a")[0];
+	    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+	      li[i].style.display = "";
+	    } else {
+	      li[i].style.display = "none";
+	    }
+	  }
+	}
+	</script>
+
+
+<h2 id="lienhe">LIÊN HỆ</h2>
+		<p>Youtube: <a href="https://youtube.com/c/BETTACOFFYFARM">BETTA COFFY FARM</a></p>
+		<p>Facebook: <a href="https://facebook.com/BETTACOFFYFARM">BETTA COFFY FARM</a></p>
+	<footer>
+		Created by Dương Nguyễn - Gmail: mectraidien1@gmail.com - <a href="mailto:mectraidien1@gmail.com">Email me</a>
+	</footer>
+
+
+	
+</body>
+</html>
